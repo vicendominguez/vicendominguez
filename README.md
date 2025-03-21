@@ -13,9 +13,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h1 align="center">Hey there 👋</h1>
+<h1 align="center">"BSD Roots, Open Source Soul, SRE Resilience."</h1>
 
-<h2 align="center">"BSD Roots, Open Source Soul, SRE Resilience."</h3>
+<h2 align="center">Hey there 👋</h2>
 
 ###
 
