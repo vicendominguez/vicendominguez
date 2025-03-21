@@ -20,11 +20,13 @@ Here are some ideas to get you started:
 ###
 
 <div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/firefox/firefox-original.svg" height="40" alt="firefox logo"  />
   <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/apache/apache-original.svg" height="40" alt="apache logo"  />
   <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/centos/centos-original.svg" height="40" alt="centos logo"  />
   <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
   <img src="https://static.cdnlogo.com/logos/f/55/freebsd.svg" height="40" alt="freebsd logo"  />
   <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/debian/debian-original.svg" height="40" alt="debian logo"  />
+  <img src="https://github.com/devicons/devicon/blob/master/icons/neovim/neovim-original.svg" height="40" alt="neovim logo"  />
   <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/go/go-original.svg" height="40" alt="go logo"  />
 </div>
 
