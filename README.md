@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **vicendominguez/vicendominguez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,26 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<h1 align="center">Hey there 👋</h1>
+
+<h2 align="center">"BSD Roots, Open Source Soul, SRE Resilience."</h3>
+
+###
+
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/apache/apache-original.svg" height="40" alt="apache logo"  />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/centos/centos-original.svg" height="40" alt="centos logo"  />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
+  <img src="https://static.cdnlogo.com/logos/f/55/freebsd.svg" height="40" alt="freebsd logo"  />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/debian/debian-original.svg" height="40" alt="debian logo"  />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/go/go-original.svg" height="40" alt="go logo"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vicendominguez&show_icons=true&theme=bear" alt="github stats" />
+</div>
+
+###
