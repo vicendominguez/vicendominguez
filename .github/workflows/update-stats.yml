@@ -1,0 +1,45 @@
+name: Update GitHub Readme Stats
+
+on:
+  schedule:
+    # Runs every 12 hours. You can adjust the cron schedule if needed.
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Allows you to run the action manually from the Actions tab
+
+jobs:
+  update-readme-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the new SVGs to your repository
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 1. Generate your main GitHub Stats card
+      - name: Generate GitHub Stats Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          # Add any customization parameters you previously used in the URL here
+          options: username=vicendominguez&show_icons=true&theme=bear&layout=compact&hide_title=true
+          path: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. (Optional) Generate Top Languages card
+      - name: Generate Top Languages Card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=vicendominguez&layout=compact&theme=default
+          path: top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3. Commit the new SVGs to your repository
+      - name: Commit & Push generated SVGs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+          git commit -m "chore: update github-readme-stats SVGs" || echo "No changes to commit"
+          git push

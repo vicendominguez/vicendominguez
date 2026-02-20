@@ -33,7 +33,7 @@ Here are some ideas to get you started:
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vicendominguez&show_icons=true&theme=bear&layout=compact&hide_title=true" alt="github stats" />
+    <img src="./stats.svg" alt="vicendominguez github stats" />
 </div>
 
 ###
