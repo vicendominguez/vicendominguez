@@ -18,17 +18,16 @@ jobs:
 
       # 1. Generate your main GitHub Stats card
       - name: Generate GitHub Stats Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          # Add any customization parameters you previously used in the URL here
-          options: username=vicendominguez&show_icons=true&theme=bear&layout=compact&hide_title=true
+          options: username=vicendominguez&show_icons=true&theme=bear&hide_title=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage
           path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. (Optional) Generate Top Languages card
       - name: Generate Top Languages Card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=vicendominguez&layout=compact&theme=default
